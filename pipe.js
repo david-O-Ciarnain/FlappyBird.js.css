@@ -1,5 +1,5 @@
-const HOLE_HEIGHT = 250;
-const PIPE_WIDTH = 120;
+const HOLE_HEIGHT = 180;
+const PIPE_WIDTH = 60;
 const PIPE_INTERVAL = 1500;
 const PIPE_SPEED = 0.5;
 let pipes = [];
