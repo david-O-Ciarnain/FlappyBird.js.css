@@ -1,6 +1,6 @@
-const HOLE_HEIGHT = 180;
+const HOLE_HEIGHT = 300;
 const PIPE_WIDTH = 60;
-const PIPE_INTERVAL = 1500;
+const PIPE_INTERVAL = 1000;
 const PIPE_SPEED = 0.5;
 let pipes = [];
 let timeSinceLastPipe = 0; 
@@ -30,6 +30,7 @@ pipes.forEach(pipe => {
         passedPipeCount++;
         return pipe.remove()
     }
+    
     pipe.left = pipe.left - delta * PIPE_SPEED;
 })
 }
